@@ -1,0 +1,15 @@
+
+int main()
+{
+float s,fat;
+ int  numero,a=0;
+printf("digite o numero para calcular : ");
+scanf("%d", &numero);
+for(fat=1;fat<=numero;fat++){
+    a=a+1;
+s=s+1/fat;
+printf(" %d  <---> %f \n ",a,s);
+}
+return 0;
+
+}
